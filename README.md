@@ -9,7 +9,7 @@ React Hook + Redux + BetterScroll + px2rem
 录屏 GIF 有点卡顿，所以看起来不正常，正常效果请下载后看
 
 <p align="center">
-	<img src="https://github.com/Jacky-Summer/app-store/tree/master/source/app-store.gif" alt=""  width="400">
+	<img src="https://github.com/Jacky-Summer/react-app-store/blob/master/source/app-store.gif" alt=""  width="400">
 </p>
 
 ## 完善程度
