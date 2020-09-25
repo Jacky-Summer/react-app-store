@@ -1,0 +1,42 @@
+@import '../../style/iconfont/iconfont.css';
+
+.list-content {
+  margin-top: 40px;
+
+  .free-scroll-wrapper {
+    position: fixed;
+    height: 412px;
+    width: 100%;
+    z-index: -1;
+
+    .loading-wrapper {
+      position: absolute;
+      top: 32%;
+      left: 0;
+      right: 0;
+    }
+
+    .empty-search-result {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      left: 0;
+      right: 0;
+
+      .empty-text {
+        text-align: center;
+        font-size: 18px;
+        color: #666;
+      }
+    }
+  }
+  .free-list {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 20px;
+    overflow: hidden;
+    border-top: 1px solid #f1f1f1;
+    border-bottom: 1px solid #f1f1f1;
+  }
+}
