@@ -11,4 +11,14 @@ module.exports = function (app) {
       },
     })
   )
+  app.use(
+    createProxyMiddleware('/app', {
+      target: 'https://itunes.apple.com/hk',
+      secure: false,
+      changeOrigin: true,
+      pathRewrite: {
+        '^/app': '',
+      },
+    })
+  )
 }

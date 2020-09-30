@@ -51,16 +51,33 @@
         flex-direction: column;
         justify-content: space-between;
         color: #666;
-        padding: 6px 0;
+        padding: 4px 0;
         margin-left: 10px;
+
         .item-name {
           color: #333;
           font-weight: 700;
           font-size: 14px;
           white-space: initial;
         }
+
         .item-cate {
           font-size: 12px;
+        }
+
+        .ratings-wrapper {
+          padding: 4px 0;
+
+          .icon-star {
+            color: #feb14f;
+          }
+
+          .rating-count {
+            display: inline-block;
+            margin-left: 6px;
+            vertical-align: text-top;
+            font-size: 12px;
+          }
         }
       }
     }

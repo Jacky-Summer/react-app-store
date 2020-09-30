@@ -10,9 +10,11 @@ const Recommend = ({ list }) => {
   const scrollRef = useRef()
 
   useEffect(() => {
-    if (scrollRef) {
-      scrollRef.current.refresh()
-    }
+    setTimeout(() => {
+      if (scrollRef) {
+        scrollRef.current.refresh()
+      }
+    }, 20)
   }, [width, height])
 
   return (

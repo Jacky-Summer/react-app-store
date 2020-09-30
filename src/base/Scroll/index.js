@@ -82,7 +82,7 @@ const Scroll = forwardRef((props, ref) => {
       if (bScroll) {
         setTimeout(() => {
           bScroll.refresh()
-        }, 20)
+        }, 1000)
       }
     },
     getBScroll() {
