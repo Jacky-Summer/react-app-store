@@ -30,6 +30,8 @@ const Scroll = forwardRef((props, ref) => {
         top: true,
         bottom: true,
       },
+      disableMouse: false,
+      disableTouch: false,
     })
     setBScroll(scroll)
     return () => {
@@ -80,7 +82,7 @@ const Scroll = forwardRef((props, ref) => {
       if (bScroll) {
         setTimeout(() => {
           bScroll.refresh()
-        }, 2000)
+        }, 20)
       }
     },
     getBScroll() {
